@@ -1,0 +1,83 @@
+/* ----------------------------------------------------------------
+    Fonts
+
+    Replace your Fonts as necessary
+-----------------------------------------------------------------*/
+
+
+body,
+small,
+#primary-menu ul ul li > a,
+.wp-caption,
+.feature-box.fbox-center.fbox-italic p,
+.skills li .progress-percent .counter,
+.nav-tree ul ul a,
+.font-body,
+.entry-meta li,
+.entry-link span,
+.entry blockquote p,
+.more-link,
+.comment-content .comment-author span,
+.button.button-desc span,
+.testi-content p,
+.team-title span,
+.before-heading,
+.wedding-head .first-name span,
+.wedding-head .last-name span,
+.font-secondary { font-family: 'Source Sans Pro', sans-serif; }
+
+h1,
+.font-titlesketching { 
+  font-family: 'Brandon Grotesque', sans-serif !important;
+  font-size: 30px !important;
+  letter-spacing: none;
+  color: #313030;
+}
+
+h2,
+h3,
+h5,
+h6,
+#logo,
+#primary-menu ul li > a,
+#primary-menu ul li .mega-menu-content.style-2 ul.mega-menu-column > li.mega-menu-title > a,
+#top-search form input,
+.entry-link,
+.entry.entry-date-section span,
+.button.button-desc,
+.counter,
+label,
+.nav-tree li a,
+.wedding-head .first-name,
+.wedding-head .last-name,
+h4,
+.font-primary { 
+	font-family: 'Source Sans Pro', sans-serif;
+	letter-spacing: 2px;
+	font-size: 15px;
+	 }
+.font-footer { 
+  font-family: 'Brandon Grotesque', sans-serif !important;
+  font-size: 20px !important;
+  letter-spacing: none;
+  color: #313030;
+}
+
+
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url('css/fonts/Brandon_reg.otf'); 
+  src: url('css/fonts/Brandon_reg_it.otf') format('opentype'), 
+       url('css/fonts/Brandon_med.otf') format('opentype'), 
+       url('css/fonts/Brandon_med_it.otf') format('opentype'), 
+       url('css/fonts/Brandon_light.otf')  format('opentype'), 
+       url('css/fonts/Brandon_light_it.otf') format('opentype'),
+       url('css/fonts/Brandon_thin.otf') format('opentype'),
+       url('css/fonts/Brandon_thin_it.otf') format('opentype'),
+       url('css/fonts/Brandon_blk.otf') format('opentype'),
+       url('css/fonts/Brandon_blk_it.otf') format('opentype'),
+       url('css/fonts/Brandon_bld.otf') format('opentype'),
+       url('css/fonts/Brandon_bld_it.otf') format('opentype');
+}
+
+
