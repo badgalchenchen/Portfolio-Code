@@ -280,7 +280,7 @@ body.top-search-open .dark #header-wrap:not(.not-dark) #top-search a,
 .dark .top-cart-action { border-top-color: #3F3F3F; }
 
 .dark .one-page-arrow,
-.one-page-arrow.dark { color: #FFF; }
+.one-page-arrow.dark { color: black; }
 
 
 .dark.side-header #header {
