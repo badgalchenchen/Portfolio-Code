@@ -81,7 +81,7 @@ h4,
 
 @font-face {
   font-family: 'Brandon Grotesque';
-  src: url('fonts/Brandon_reg.otf') format('opentype'), 
+  src: url('fonts/Brandon_reg.otf') format('opentype');
   font-style: normal;
   font-weight: normal;
 }
@@ -89,14 +89,14 @@ h4,
 
 @font-face {
   font-family: 'Brandon Grotesque';
-  src: url('fonts/Brandon_reg_it.otf') format('opentype'), 
+  src: url('fonts/Brandon_reg_it.otf') format('opentype'); 
   font-style: italic;
   font-weight: 300;
 }
 
 @font-face {
   font-family: 'Brandon Grotesque';
-  src: url('fonts/Brandon_blk.otf') format('opentype'),
+  src: url('fonts/Brandon_blk.otf') format('opentype');
   font-style: bold;
   font-weight: 700;
 }
