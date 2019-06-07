@@ -66,18 +66,18 @@ h4,
 
 @font-face {
   font-family: 'Brandon Grotesque';
-  src: url('css/fonts/Brandon_reg.otf'); 
-  src: url('css/fonts/Brandon_reg_it.otf') format('opentype'), 
-       url('css/fonts/Brandon_med.otf') format('opentype'), 
-       url('css/fonts/Brandon_med_it.otf') format('opentype'), 
-       url('css/fonts/Brandon_light.otf')  format('opentype'), 
-       url('css/fonts/Brandon_light_it.otf') format('opentype'),
-       url('css/fonts/Brandon_thin.otf') format('opentype'),
-       url('css/fonts/Brandon_thin_it.otf') format('opentype'),
-       url('css/fonts/Brandon_blk.otf') format('opentype'),
-       url('css/fonts/Brandon_blk_it.otf') format('opentype'),
-       url('css/fonts/Brandon_bld.otf') format('opentype'),
-       url('css/fonts/Brandon_bld_it.otf') format('opentype');
+  src: url('fonts/Brandon_reg.otf'); 
+  src: url('fonts/Brandon_reg_it.otf') format('opentype'), 
+       url('fonts/Brandon_med.otf') format('opentype'), 
+       url('fonts/Brandon_med_it.otf') format('opentype'), 
+       url('fonts/Brandon_light.otf')  format('opentype'), 
+       url('fonts/Brandon_light_it.otf') format('opentype'),
+       url('fonts/Brandon_thin.otf') format('opentype'),
+       url('fonts/Brandon_thin_it.otf') format('opentype'),
+       url('fonts/Brandon_blk.otf') format('opentype'),
+       url('fonts/Brandon_blk_it.otf') format('opentype'),
+       url('fonts/Brandon_bld.otf') format('opentype'),
+       url('fonts/Brandon_bld_it.otf') format('opentype');
 }
 
 
