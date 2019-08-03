@@ -249,7 +249,7 @@ blockquote,
 address,
 table,
 fieldset,
-form { margin-bottom: 15px; }
+form { }
 
 small { font-family: 'Lato', sans-serif; }
 
@@ -1058,13 +1058,11 @@ body.stretched #header.full-header .container {
 	position: relative;
 	float: left;
 	font-size: 36px;
-	line-height: 15px;
 	margin-right: 40px;
 }
 
 #header.full-header #logo {
-	padding-right: 30px;
-	margin-right: 30px;
+
 	border-right: 1px solid #EEE;
 }
 
