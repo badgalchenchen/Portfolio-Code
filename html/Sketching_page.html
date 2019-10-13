@@ -37,23 +37,22 @@
 <body class="stretched">
 <div id="wrapper" class="clearfix">
 
-		<!-- Header
-		============================================= -->
-		<header id="header" class="full-header transparent-header border-full-header sticky-header">
+		<header id="header" class="full-header transparent-header border-full-header static-sticky sticky-header" data-sticky-class="not-dark" data-sticky-offset="full" data-sticky-offset-negative="100">
 
 			<div id="header-wrap">
 
 				<div class="container clearfix">
-
 					<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
-				<!-- Logo
+
+					<!-- Logo
 					============================================= -->
 					<div id="logo">
-						<div class="standard-logo" style="font-family: Brandon Grotesque; font-size: 30px; color: #313030; padding-top: 25px; letter-spacing: 7px;">
+						<div class="standard-logo bounce animated" style="font-family: Brandon Grotesque; font-size: 30px; color: #313030;letter-spacing: 7px; padding-top:12.5px; padding-bottom:12.5px" data-animate="bounce">
 						<p><strong>ALEXIS</strong>LIU</p>
 					</div>
 				</div>
 					<!-- #logo end -->
+
 
 					<!-- Primary Navigation
 					============================================= -->
@@ -83,17 +82,20 @@
 
 		<!-- Sketching Banner and phrase
 		============================================= -->
-		<section id="slider" class="slider-element ">
-
-				<div class="nopadding noborder ohidden portfolio-banner1">
-					<img src="../ID/ID_Banner.png" alt=ID_Banner style="width=100%";> 
-					<div class="textover2 font-title">
-						<p><strong>Industrial Design</strong></p>
+		
+		<section id="content">
+			<div class="section-wrap" style="background-image: url('../ID/ID_Banner.png'); height:300px;">
+				
+				<div class="container clearfix absolutecenter center" >
+					
+					<div class="font-title">
+					<p><strong>Industrial Design</strong></p>
 					</div>
 				</div>
+			</div>
+			</section>
 			<div id="section-works" class="notoppadding">
-				<div class="section nomargin">
-					<div class="container clearfix">
+					<div class="container clearfix topmargin bottommargin">
 						<div class="divcenter center" style="max-width: 900px;">
 							<p class="nobottommargin t300 lead">A series of design sprints taught me how to iterate and build upon my designs. <strong><br>Form and function works hand in hand.</strong><i>Think fast, sketch fast, never give up.</i></p>
 						</div>
@@ -101,7 +103,7 @@
 				</div>
 			</div>
 
-		</section><!-- Sketch banner and phrase end -->
+<!-- Sketch banner and phrase end -->
 
 		<!-- Page Title
 		
@@ -125,27 +127,6 @@
 			<div class="content-wrap nopadding">
 
 				<div class="container clearfix">
-
-					<!-- Portfolio Filter
-					
-					<ul id="portfolio-filter" class="portfolio-filter clearfix" data-container="#portfolio">
-
-						<li class="activeFilter"><a href="#" data-filter="*">Show All</a></li>
-						<li><a href="#" data-filter=".pf-icons">Icons</a></li>
-						<li><a href="#" data-filter=".pf-illustrations">Illustrations</a></li>
-						<li><a href="#" data-filter=".pf-uielements">UI Elements</a></li>
-						<li><a href="#" data-filter=".pf-media">Media</a></li>
-						<li><a href="#" data-filter=".pf-graphics">Graphics</a></li>
-
-					</ul> #portfolio-filter end -->
-
-
-					<div id="portfolio-shuffle" class="portfolio-shuffle" data-container="#portfolio">
-						<i class="icon-random"></i>
-					</div>
-
-					<div class="clear"></div>
-
 <!--Start of Shoe-->
 					<div id="portfolio" class="portfolio grid-container portfolio-3 clearfix">
 
@@ -224,7 +205,7 @@
 											<div class="slide"><img src="../ID/ID_Busstop_final.jpg" alt="Busstopfinal"></a></div>
 											<div class="slide"><img src="../ID/ID_Busstop_final2.jpg" alt="Busstopfinal2"></a></div>
 											<div class="slide"><img src="../ID/ID_Busstop_1.jpg" alt="Busstop1"></a></div>
-											<div class="slide"><img src="../ID/ID_Busstop_2.jpg" alt="Busstop2"></a></div>
+											<div class="slide"><img src="../ID/ID_Busstop_2.png" alt="Busstop2"></a></div>
 											<div class="slide"><img src="../ID/ID_Busstop_3.jpg" alt="Busstop3"></a></div>
 											<div class="slide"><img src="../ID/ID_Busstop_4.jpg" alt="Busstop4"></a></div>
 											<div class="slide"><img src="../ID/ID_Busstop_5.jpg" alt="Busstop5"></a></div>
@@ -309,7 +290,7 @@
 								</div>
 							</div>
 							<div class="portfolio-desc">
-								<h1>Speaker</a></h1>
+								<h3>Speaker</a></h3>
 							</div>
 					</article>
 <!--End of speaker-->

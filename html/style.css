@@ -422,6 +422,16 @@ span.middot {
 	margin-right: auto !important;
 }
 
+.absolutecenter {
+	position: relative !important;
+	float: none !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	top: 50% !important;
+	bottom: 50%!important;
+	text-align: center !important;
+}
+
 .bgcolor,
 .bgcolor #header-wrap { background-color: #1ABC9C !important; }
 
@@ -11524,14 +11534,23 @@ input[type=checkbox]:not(:checked) + label.error { display: block !important; }
 
 .fancy-title.title-bottom-border h1,
 .fancy-title.title-bottom-border h2,
-.fancy-title.title-bottom-border h3,
+.fancy-title.title-bottom-border h3
 .fancy-title.title-bottom-border h4,
 .fancy-title.title-bottom-border h5,
 .fancy-title.title-bottom-border h6 {
 	display: block;
 	background: transparent;
 	padding: 0 0 10px;
-	border-bottom: 2px solid #1ABC9C;
+	border-bottom: 2px solid #A2C5E5;
+}
+
+
+.fancy-title.title-bottom-border-urban h3{
+	display: block;
+	background: transparent;
+	padding: 0 0 10px;
+	border-bottom: 2px solid #158011;
+}
 }
 
 
