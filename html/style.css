@@ -418,8 +418,8 @@ span.middot {
 .divcenter {
 	position: relative !important;
 	float: none !important;
-	margin-left: auto !important;
-	margin-right: auto !important;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .absolutecenter {
