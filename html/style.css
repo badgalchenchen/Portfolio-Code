@@ -171,10 +171,10 @@ body {
 
 a {
 	text-decoration: none !important;
-	color: #1ABC9C;
+	color: #919191;
 }
 
-a:hover { color: #222; }
+a:hover { color: #919191; }
 
 a img { border: none; }
 
@@ -1217,7 +1217,7 @@ body.stretched #header.full-header .container {
 }
 
 #primary-menu ul li:hover > a,
-#primary-menu ul li.current > a { color: #1ABC9C; }
+#primary-menu ul li.current > a { color: #919191; }
 
 #primary-menu > ul > li.sub-menu > a > div { }
 
