@@ -117,6 +117,10 @@
 body,
 .dropdown-menu { font-size: 0.875rem; }
 
+.navi1{
+	display: inline-block;
+    list-style-type: none;
+}
 
 /* ----------------------------------------------------------------
 	Basic
@@ -842,6 +846,11 @@ html[xmlns] .slider-wrap {display: block;}
 	margin: 0;
 }
 
+
+.nav {
+	text-align: center !important;
+	display: inline-block !important;
+}
 .top-links li:hover { background-color: #EEE; }
 
 .top-links ul ul,
@@ -3616,8 +3625,8 @@ body:not(.device-touch) .grid-container {
 	position: relative;
 	margin: 0 0 40px 0;
 	list-style: none;
-	border: 1px solid rgba(0,0,0,0.07);
-	float: left;
+	float: none;
+	margin: auto;
 	border-radius: 4px;
 }
 
@@ -3630,10 +3639,9 @@ body:not(.device-touch) .grid-container {
 	display: block;
 	position: relative;
 	padding: 12px 18px;
-	font-size: 13px;
+	font-size: 15px;
 	line-height: 15px;
 	color: #666;
-	border-left: 1px solid rgba(0,0,0,0.07);
 }
 
 .portfolio-filter li:first-child a {
@@ -3646,8 +3654,7 @@ body:not(.device-touch) .grid-container {
 .portfolio-filter li a:hover { color: #1ABC9C; }
 
 .portfolio-filter li.activeFilter a {
-	color: #FFF !important;
-	background-color: #1ABC9C;
+	color: #000000 !important;
 	margin: -1px 0;
 	padding: 13px 18px;
 	font-weight: bold;
